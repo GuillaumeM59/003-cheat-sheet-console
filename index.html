@@ -3,13 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Cheat sheet Console Ubuntu</title>
-    <link type="text/css" rel="steelsheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
   </head>
   <body>
     <header>
-      <h1>cheat sheel linux lignes de commande</h1>
+      <h1>Lignes de commande</h1>
       <p>Les Cheat-Sheet à la Guytou</p>
     </header>
+    <nav>
+      <ul>
+        <li><a href="#navigation">Navigation</a></li>
+        <li><a href="#actions">Actions générales</a></li>
+        <li><a href="#petitplus">Plus</a></li></ul>
+    </nav>
     <section id="navigation">
       <h2>Navigons!</h2>
       <ul>
@@ -28,8 +34,9 @@
           <li>-Rl juste le fichier.</li></li>
         <li>ctrl+l   efface les commandes passées.</li>
         </ul>
-      </section>
-      <section id="actions">
+    </section>
+    <section id="actions" class="blocpair">
+        <h2>Action!</h2>
         <ul>
           <li>mkdir #NOM   crée le dossier #nom dans le dossier de travail.</li>
           <li>touch #fichier   crée le #fichier.</li>
@@ -39,19 +46,20 @@
           <li>rv -r  supprime tout ds le dossier même les sous dossiers.</li>
           <li>echo #fichier   redirigé vers un #fichier.</li>
           <li>cat #fichier   sort le contenu de #fichier pour le mettre ds la console.</li>
-          <li>cat #fichier [>]   change l'interieur  cat # [>>] copie à la suite.</li>
+          <li>cat #fichier >   change l'interieur  cat # >> copie à la suite.</li>
           <li>sort   tri alphabetique.</li>
           <li>uniq   retire les doublons.</li>
           <li>sed '#action/#mot1/#mot2' fait l'#action sur #mot1 par #mot2.</li>
         </ul>
-      </section>
-      <section>
+    </section>
+    <section id="petitplus">
+        <h2>Petit Plus...</h2>
         <ul>
           <li>#logiciel -v ou --version   indique la version presente du #logiciel</li>
           <li>sudo apt.get install #appli  installe l'#appli.</li>
           <li>sudo apt.get remove #appli  supprime l'#appli.</li>
           <li>sudo apt.get purge #appli  supprime l'#appli et tous ce qui lui est attaché.</li>
         </ul>
-      </section>
+    </section>
   </body>
 </html>

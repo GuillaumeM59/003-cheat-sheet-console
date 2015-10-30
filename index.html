@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Cheat sheet Console Ubuntu</title>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css"/>
+
   </head>
   <body>
     <header>
@@ -22,12 +24,12 @@
         <li><span>tab</span>complémente la synthaxe.</li>
         <li><span>pwd</span>où je suis.</li>
         <li><span>cd</span>change dossier de travail.</li>
-        <li><span>cd ../../ ...</span>remonte d'un dossier de travail  de <u>../</u> fois.</li>
+        <li><span>cd ../../ ...</span>remonte d'un dossier de travail  de <pre>../</pre> fois.</li>
         <li><span>ls</span>liste de ce contient le dossier.
         <li><span>-a</span>tout voir même les cachés.</li>
         <li><span>-l</span>détaillée</li>
         <li><span>-t</span>chronologiquement</li> </li>
-        <li><span>man <u>#fonction</u></span>détaille la <u>#fonction</u>.</li>
+        <li><span>man <pre>#fonction</pre></span>détaille la <pre>#fonction</pre>.</li>
         <li><span>grep</span>recherche
           <li><span>-i</span>peu importe maj ou minuscule.</li>
           <li><span>-R</span>avec l'info fichier - ligne.</li>
@@ -38,28 +40,28 @@
     <section id="actions" class="blocpair">
         <h2>Action!</h2>
         <ul>
-          <li><span>mkdir <u>#nom</u></span>crée le dossier <u>#nom</u> dans le dossier de travail.</li>
-          <li><span>touch <u>#fichier</u></span>crée le <u>#fichier</u>.</li>
+          <li><span>mkdir <pre>#nom</pre></span>crée le dossier <pre>#nom</pre> dans le dossier de travail.</li>
+          <li><span>touch <pre>#fichier</pre></span>crée le <pre>#fichier</pre>.</li>
           <li><span>cp</span>copie</li>
           <li><span>mv</span>déplace</li>
           <li><span>rv</span>supprime</li>
           <li><span>rv -r</span>supprime tout dans le dossier même les sous-dossiers.</li>
-          <li><span>echo <u>#fichier</u></span>redirigé vers un <u>#fichier</u>.</li>
-          <li><span>cat <u>#fichier</u></span>sort le contenu de <u>#fichier</u> pour le mettre ds la console.</li>
-          <li><span>cat <u>#fichier</u> &gt;</span>change l'interieur</li>
+          <li><span>echo <pre>#fichier</pre></span>redirigé vers un <pre>#fichier</pre>.</li>
+          <li><span>cat <pre>#fichier</pre></span>sort le contenu de <pre>#fichier</pre> pour le mettre ds la console.</li>
+          <li><span>cat <pre>#fichier</pre> &gt;</span>change l'interieur</li>
           <li><span>cat # &gt;&gt;</span>copie à la suite.</li>
           <li><span>sort</span>tri alphabetique.</li>
           <li><span>uniq</span>retire les doublons.</li>
-          <li><span>sed '<u>#action</u>/<u>#mot1</u>/<u>#mot2</u>'</span> fait l'<u>#action</u> sur <u>#mot1</u> par <u>#mot2</u>.</li>
+          <li><span>sed '<pre>#action</pre>/<pre>#mot1</pre>/<pre>#mot2</pre>'</span> fait l'<pre>#action</pre> sur <pre>#mot1</pre> par <pre>#mot2</pre>.</li>
         </ul>
     </section>
     <section id="petitplus">
         <h2>Petit Plus...</h2>
         <ul>
-          <li><span><u>#logiciel</u> -v</span> ou <span>--version</span>indique la version presente du <u>#logiciel</u></li>
-          <li><span>sudo apt.get install <u>#appli</u></span>  installe l'<u>#appli</u>.</li>
-          <li><span>sudo apt.get remove <u>#appli</u></span>  supprime l'<u>#appli</u>.</li>
-          <li><span>sudo apt.get purge <u>#appli</span>  supprime l'<u>#appli</u> et tous ce qui lui est attaché.</li>
+          <li><span><pre>#logiciel</pre> -v</span> ou <span>--version</span>indique la version presente du <pre>#logiciel</pre></li>
+          <li><span>sudo apt.get install <pre>#appli</pre></span>  installe l'<pre>#appli</pre>.</li>
+          <li><span>sudo apt.get remove <pre>#appli</pre></span>  supprime l'<pre>#appli</pre>.</li>
+          <li><span>sudo apt.get purge <pre>#appli</pre></span>  supprime l'<pre>#appli</pre> et tous ce qui lui est attaché.</li>
         </ul>
     </section>
   </body>

@@ -9,6 +9,7 @@
   </head>
   <body>
     <header>
+      <img src="img/terminalubuntu.gif" alt="image terminal ubuntu" />
       <h1>Lignes de commande</h1>
       <p>Les Cheat-Sheet à la Guytou</p>
     </header>
@@ -18,51 +19,53 @@
         <li><a href="#actions">Actions générales</a></li>
         <li><a href="#petitplus">Plus</a></li></ul>
     </nav>
-    <section id="navigation">
-      <h2>Navigons!</h2>
-      <ul>
-        <li><span>tab</span>complémente la synthaxe.</li>
-        <li><span>pwd</span>où je suis.</li>
-        <li><span>cd</span>change dossier de travail.</li>
-        <li><span>cd ../../ ...</span>remonte d'un dossier de travail  de <pre>../</pre> fois.</li>
-        <li><span>ls</span>liste de ce contient le dossier.
-        <li><span>-a</span>tout voir même les cachés.</li>
-        <li><span>-l</span>détaillée</li>
-        <li><span>-t</span>chronologiquement</li> </li>
-        <li><span>man <pre>#fonction</pre></span>détaille la <pre>#fonction</pre>.</li>
-        <li><span>grep</span>recherche
-          <li><span>-i</span>peu importe maj ou minuscule.</li>
-          <li><span>-R</span>avec l'info fichier - ligne.</li>
-          <li><span>-Rl</span>juste le fichier.</li></li>
-        <li><span>ctrl+l</span>efface les commandes passées.</li>
-        </ul>
-    </section>
-    <section id="actions" class="blocpair">
-        <h2>Action!</h2>
+    <article>
+      <section id="navigation">
+        <h2>Navigons!</h2>
         <ul>
-          <li><span>mkdir <pre>#nom</pre></span>crée le dossier <pre>#nom</pre> dans le dossier de travail.</li>
-          <li><span>touch <pre>#fichier</pre></span>crée le <pre>#fichier</pre>.</li>
-          <li><span>cp</span>copie</li>
-          <li><span>mv</span>déplace</li>
-          <li><span>rv</span>supprime</li>
-          <li><span>rv -r</span>supprime tout dans le dossier même les sous-dossiers.</li>
-          <li><span>echo <pre>#fichier</pre></span>redirigé vers un <pre>#fichier</pre>.</li>
-          <li><span>cat <pre>#fichier</pre></span>sort le contenu de <pre>#fichier</pre> pour le mettre ds la console.</li>
-          <li><span>cat <pre>#fichier</pre> &gt;</span>change l'interieur</li>
-          <li><span>cat # &gt;&gt;</span>copie à la suite.</li>
-          <li><span>sort</span>tri alphabetique.</li>
-          <li><span>uniq</span>retire les doublons.</li>
-          <li><span>sed '<pre>#action</pre>/<pre>#mot1</pre>/<pre>#mot2</pre>'</span> fait l'<pre>#action</pre> sur <pre>#mot1</pre> par <pre>#mot2</pre>.</li>
-        </ul>
-    </section>
-    <section id="petitplus">
-        <h2>Petit Plus...</h2>
-        <ul>
-          <li><span><pre>#logiciel</pre> -v</span> ou <span>--version</span>indique la version presente du <pre>#logiciel</pre></li>
-          <li><span>sudo apt.get install <pre>#appli</pre></span>  installe l'<pre>#appli</pre>.</li>
-          <li><span>sudo apt.get remove <pre>#appli</pre></span>  supprime l'<pre>#appli</pre>.</li>
-          <li><span>sudo apt.get purge <pre>#appli</pre></span>  supprime l'<pre>#appli</pre> et tous ce qui lui est attaché.</li>
-        </ul>
-    </section>
+          <li><span>tab</span>complémente la synthaxe.</li>
+          <li><span>pwd</span>où je suis.</li>
+          <li><span>cd</span>change dossier de travail.</li>
+          <li><span>cd ../../ ...</span>remonte d'un dossier de travail  de <pre>../</pre> fois.</li>
+          <li><span>ls</span>liste de ce contient le dossier.
+            <li><span>-a</span>tout voir même les cachés.</li>
+            <li><span>-l</span>détaillée</li>
+            <li><span>-t</span>chronologiquement</li> </li>
+            <li><span>man <pre>#fonction</pre></span>détaille la <pre>#fonction</pre>.</li>
+            <li><span>grep</span>recherche
+              <li><span>-i</span>peu importe maj ou minuscule.</li>
+              <li><span>-R</span>avec l'info fichier - ligne.</li>
+              <li><span>-Rl</span>juste le fichier.</li></li>
+              <li><span>ctrl+l</span>efface les commandes passées.</li>
+            </ul>
+          </section>
+          <section id="actions" class="blocpair">
+            <h2>Action!</h2>
+            <ul>
+              <li><span>mkdir <pre>#nom</pre></span>crée le dossier <pre>#nom</pre> dans le dossier de travail.</li>
+              <li><span>touch <pre>#fichier</pre></span>crée le <pre>#fichier</pre>.</li>
+              <li><span>cp</span>copie</li>
+              <li><span>mv</span>déplace</li>
+              <li><span>rv</span>supprime</li>
+              <li><span>rv -r</span>supprime tout dans le dossier même les sous-dossiers.</li>
+              <li><span>echo <pre>#fichier</pre></span>redirigé vers un <pre>#fichier</pre>.</li>
+              <li><span>cat <pre>#fichier</pre></span>sort le contenu de <pre>#fichier</pre> pour le mettre ds la console.</li>
+              <li><span>cat <pre>#fichier</pre> &gt;</span>change l'interieur</li>
+              <li><span>cat # &gt;&gt;</span>copie à la suite.</li>
+              <li><span>sort</span>tri alphabetique.</li>
+              <li><span>uniq</span>retire les doublons.</li>
+              <li><span>sed '<pre>#action</pre>/<pre>#mot1</pre>/<pre>#mot2</pre>'</span> fait l'<pre>#action</pre> sur <pre>#mot1</pre> par <pre>#mot2</pre>.</li>
+            </ul>
+          </section>
+          <section id="petitplus">
+            <h2>Petit Plus...</h2>
+            <ul>
+              <li><span><pre>#logiciel</pre> -v</span> ou <span>--version</span>indique la version presente du <pre>#logiciel</pre></li>
+              <li><span>sudo apt.get install <pre>#appli</pre></span>  installe l'<pre>#appli</pre>.</li>
+              <li><span>sudo apt.get remove <pre>#appli</pre></span>  supprime l'<pre>#appli</pre>.</li>
+              <li><span>sudo apt.get purge <pre>#appli</pre></span>  supprime l'<pre>#appli</pre> et tous ce qui lui est attaché.</li>
+            </ul>
+          </section>
+        </article>
   </body>
 </html>

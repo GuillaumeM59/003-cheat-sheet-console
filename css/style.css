@@ -25,6 +25,7 @@ header {
 header img {
   margin-left: 10%;
   margin-top: 1%;
+ float: left;
 
   height: 100px;
 }

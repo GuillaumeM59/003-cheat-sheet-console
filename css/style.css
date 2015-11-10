@@ -94,13 +94,14 @@ section pre {
 @media all and (max-device-width:350px) {
   body {font-size: 1em;}
   header { width: 98%; margin-left: 0;margin-top: 25%;}
-  header img, header h1 {display:inline-block;}
+  header img {display: inline-block;} 
+  header h1 {display:inline-block;}
   nav {position: fixed; display: block;top: 0; left: 0;width: 100%;margin:0;padding: 0;
     border: 2px solid black;
     border-radius: 20px 20px 20px 20px;}
-  nav ul {border: none;text-align: center;background: none;}
+  nav ul {border: none;text-align: center;background: none;margin-left: 0;}
   #menu li {display: inline-block;border: 2px solid rgb(121, 56, 9); margin: auto;
-  margin-bottom: 1%;font-size: 0.9em;padding: 0;}
+  margin-bottom: 0.5%;font-size: 0.9em;padding: 0;}
   section{ padding-left: 0; padding-right: 0; margin-right: 0;font-weight: 500;width: 100%;}
   article{width: 100%;}
 }

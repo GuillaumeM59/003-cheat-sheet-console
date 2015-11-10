@@ -99,7 +99,7 @@ section pre {
   nav {position: fixed; display: block;top: 0; left: 0;width: 100%;margin:0;padding: 0;
     border: 2px solid black;
     border-radius: 20px 20px 20px 20px;}
-  nav ul {display: block;border: none;text-align: center;background: none;margin-left: -4%;width: 100%; margin-bottom: 0.5%;}
+  nav ul {display: block;border: none;text-align: center;background: none;margin-left: -4%;width: 100%; margin-bottom: 0;margin-top: 0;}
   #menu li {display: inline-block;border: 2px solid rgb(121, 56, 9); margin: auto;
   margin-bottom: 0.5%;font-size: 0.8em;padding: 0;}
   section{ padding-left: 0; padding-right: 0; margin-right: 0;font-weight: 500;width: 100%;}

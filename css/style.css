@@ -103,5 +103,5 @@ section pre {
   #menu li {display: inline-block;border: 2px solid rgb(121, 56, 9); margin: auto;
   margin-bottom: 0.5%;font-size: 0.9em;padding: 0;}
   section{ padding-left: 0; padding-right: 0; margin-right: 0;font-weight: 500;width: 100%;}
-  article{width: 100%;}
+  article{max-width: 100%;}
 }

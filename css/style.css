@@ -96,7 +96,7 @@ section pre {
   header { width: 98%; margin-left: 0;margin-top: 35%;}
   header img {display: inline-block;}
   header h1 {display:inline-block;}
-  nav {position: fixed; display: inline-block;top: 0; left: 0;width: 100%;margin:0;padding: 0;
+  nav {position: fixed; display: block;top: 0; left: 0;width: 100%;margin:0;padding: 0;
     border: 2px solid black;
     border-radius: 20px 20px 20px 20px;}
   nav ul {display: block;border: none;text-align: center;background: none;margin: 0;width: 100%;}

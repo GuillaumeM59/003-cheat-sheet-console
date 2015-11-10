@@ -1,15 +1,16 @@
-/* generic website style*/
+/* global website style*/
+
 body {
-  background-color: #E5B696;
-  }
+  background-color: rgb(255, 255, 255);
+}
 h2 {
   text-align: center;
   color: #BF987D;
-  }
+}
 p, ul {
   list-style: none;
   font-family: "Dancing Script", cursive;
-  }
+}
 header {
   text-align: center;
   background-color: #7F6553;
@@ -21,62 +22,59 @@ header {
   margin-left: 3%;
   margin-right: 3%;
   margin-bottom: 5px;
-    }
-header img {
-  margin-left: 10%;
-  margin-top: 1%;
- float: left;
-
-  height: 100px;
 }
-/*mise en forme et placement à droite du menu*/
-#menu {
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 20%;
+}
+
+/*nav style and fixed position*/
+nav
+{display: block;
   position: fixed;
-  right: 0;
-  top: 50%;
-  width: 8em;
-  font-size: 1.2em;
-  margin-top: -2.5em;
-  background-color: #7F6553;
-  border: 2px solid black;
-  border-radius: 20px 0 0 20px;
-  border-right: none;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  }
+right: 0;
+top: 35%;
+background-color: #7F6553;
+border: 2px solid black;
+border-radius: 20px 0 0 20px;
+border-right: none;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 a {
   text-decoration: none;
   color: #FFCAA7;
-  }
+}
 article {
   max-width: 85%;
 }
-/*delay on each two blocs*/
-.blocpair {
-  position: relative;
-  left: 25%;
-  }
-/*mise en forme des blocs*/
-section {
- width: 70%;
- background-color: #40332A;
- border-radius: 10px;
- padding-top: 2px;
- padding-bottom: 2px;
- margin-top: 1px;
- position:relative;
- left: 8%;
- text-align: justify;
-  }
+
+/*block style*/
+
+section {display: block;
+  background-color: #40332A;
+  border-radius: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 1px;
+  text-align: justify;
+}
 section ul {
   list-style: none;
   padding-left: 2%;
   padding-right: 2%;
-  font-size: 1.2em;
   color: #FFCAA7;
   line-height: 1.5;
-  }
-/*mise en forme des caractères à taper*/
+}
+section ul li {font-size: 1.5em;}
+section ul li ul li {font-size: 1em;}
+/*exemples style*/
+
 section span {
   font-family: Arial;
   background-color: black;
@@ -86,5 +84,23 @@ section span {
   margin-right: 2px;
   padding-left: 2px;
   padding-right: 2px;
-  }
-section pre{color: #FF4935; display: inline;}
+}
+section pre {
+  color: #FF4935;
+  display: inline;
+}
+
+/* media queries device under 350px*/
+@media all and (max-width:350px) {
+  body {font-size: 1em;}
+  header { width: 98%; margin-left: 0;margin-top: 25%;}
+  header img, header h1 {display:inline-block;}
+  nav {position: fixed; display: block;top: 0; left: 0;width: 100%;margin:0;padding: 0;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;}
+  nav ul {border: none;text-align: center;background: none;}
+  #menu li {display: inline-block;border: 2px solid rgb(121, 56, 9); margin: auto;
+  margin-bottom: 1%;font-size: 0.9em;padding: 0;}
+  section{ padding-left: 0; padding-right: 0; margin-right: 0;font-weight: 500;width: 100%;}
+  article{width: 100%;}
+}

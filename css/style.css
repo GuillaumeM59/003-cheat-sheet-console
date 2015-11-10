@@ -93,7 +93,7 @@ section pre {
 /* media queries device under 350px*/
 @media all and (max-device-width:350px) {
   body {font-size: 1em;}
-  header { width: 98%; margin-left: 0;margin-top: 15%;}
+  header { width: 98%; margin-left: 0;margin-top: 10%;}
   header img {display: inline-block;}
   header h1 {display:inline-block;}
   nav {position: fixed; display: block;top: 0; left: 0;width: 100%;margin:0;padding: 0;
